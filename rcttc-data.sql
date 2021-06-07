@@ -68,6 +68,8 @@ inner join `show` s on d.`show` = s.`name` and ts.show_id = s.show_id;
                 
 select * from ticket;
 
+drop table temp_data;
+
 
 -- UPDATE 
 -- 1. theater: Little Fitz update date '2021-03-01- show: the sky lit up  old price: $20.00 new price: $22.25 
